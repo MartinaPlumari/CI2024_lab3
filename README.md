@@ -12,5 +12,3 @@ As the heuristic function, I tried using 2 different functions:
 
 ## Considerations
 Unfortunately the implementation I provided is able to solve in reasonable time only a 3x3 puzzle. For the 4x4 puzzle, the algorithm takes too long to find a solution. The problem might be due the heuristic function, which is too simplistic to solve a bigger problem or to the lack of a data structure that allows for fast retrieval of node-cost tuple. 
-
-Even though I am aware of some improvements I could make to the code, I could not implement them in time since much of my time was spent trying to find and solve a problem in the implementation that was causing the algorithm to not find a solution for the 3x3 puzzle. 
